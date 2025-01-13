@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Localizations\en.json" />
+    <None Remove="Localizations\uk.json" />
+    <None Remove="README.txt" />
+    <None Remove="Resources\CompleteSound.wav" />
+    <None Remove="Resources\ErrorSound.wav" />
+    <None Remove="Resources\vs_community.exe" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Localizations\en.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localizations\uk.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="README.txt" />
+    <EmbeddedResource Include="Resources\CompleteSound.wav" />
+    <EmbeddedResource Include="Resources\ErrorSound.wav" />
+    <EmbeddedResource Include="Resources\vs_community.exe" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Windows.Extensions" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>
