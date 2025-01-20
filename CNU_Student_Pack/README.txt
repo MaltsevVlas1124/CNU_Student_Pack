@@ -12,8 +12,7 @@ ReadMe Українською:
 2 - Встановлення Visual Studio 2022 та компонентів, необхідних мові C# (.NET SDK,.NET desktop development workload, ASP.NET Core, GitHub Extension) (≈ 6 Гб).
 3 - Встановлення VSCode (≈ 500 Мб).
 4 - Встановлення Git (≈ 500 Мб).
-5 - Встановлення Maxima, a Computer Algebra System (≈ 1 Гб).
-6 - Встановлення всього (≈ 10 ГБ).
+5 - Встановлення всього (≈ 10 ГБ).
 
 9 - Відкриття README-файлу.
 
@@ -31,8 +30,7 @@ INSTRUCTION:
 2 - Installation of Visual Studio 2022 and components required for C# (.NET SDK,.NET desktop development workload, ASP.NET Core, GitHub Extension) (≈ 6 GB).
 3 - Installation of VSCode (≈ 500 MB).
 4 - Installation of Git (≈ 500 MB).
-5 - Installation of Maxima, a Computer Algebra System (≈ 1 GB).
-6 - Installation of everything (≈ 10 GB).
+5 - Installation of everything (≈ 10 GB).
 
 9 - Open the README file.
 
