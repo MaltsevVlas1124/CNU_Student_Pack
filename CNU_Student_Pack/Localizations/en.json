@@ -1,5 +1,5 @@
 {
-  "EnterChoice": "Select an action to perform:\n\n1 - Install Visual Studio 2022 (≈ 2 GB)\n2 - Install Visual Studio 2022 and components required for C# (≈ 6 GB)\n3 - Install VSCode (≈ 500 MB)\n4 - Install Git (≈ 500 MB)\n5 - Install Maxima, a Computer Algebra System (≈ 1 GB)\n6 - Install everything (≈ 10 GB)\n\n9 - Open the README file\n\n0 - Exit the program\n\nChoice: ",
+  "EnterChoice": "Select an action to perform:\n\n1 - Install Visual Studio 2022 (≈ 2 GB)\n2 - Install Visual Studio 2022 and components required for C# (≈ 6 GB)\n3 - Install VSCode (≈ 500 MB)\n4 - Install Git (≈ 500 MB)\n5 - Install everything (≈ 9 GB)\n\n9 - Open the README file\n\n0 - Exit the program\n\nChoice: ",
   "InvalidInput": "Invalid input. Please try again.\n",
   "OutOfRange": "Choice is out of range.\n",
   "ExitMessage": "\nProgram terminated. Goodbye!",
@@ -8,8 +8,7 @@
   "Option2": "\nSelected installation of Visual Studio 2022 and components required for C# (≈ 6 GB).\n",
   "Option3": "\nSelected installation of VSCode (≈ 500 MB).",
   "Option4": "\nSelected installation of Git (≈ 500 MB).",
-  "Option5": "\nSelected installation of Maxima, a Computer Algebra System (≈ 1 GB).",
-  "Option6": "\nSelected installation of everything (≈ 10 GB).",
+  "Option5": "\nSelected installation of everything (≈ 10 GB).",
   "Option9": "\nSelected to open the README file.\n",
   "PressAnyKey": "Press any key to return to the menu...",
   "Warning": "WARNING:",

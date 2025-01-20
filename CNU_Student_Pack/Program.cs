@@ -45,7 +45,7 @@ internal class CNU_Student_Pack
                 continue;
             }
 
-            if ((choice < 0 || choice > 6) && choice != 9)
+            if ((choice < 0 || choice > 5) && choice != 9)
             {
                 Console.Clear();
                 PlaySound(1);
@@ -97,23 +97,14 @@ internal class CNU_Student_Pack
                 break;
 
             case 5:
-                WriteColoredLine(Localize("Option5"), ConsoleColor.Yellow);
-                WriteColoredLine(Localize("LongDownloading"), ConsoleColor.DarkYellow);
-                ExecuteCommand(3);
-                PlaySound(2);
-                PressAnyKeyToContinue();
-                break;
-
-            case 6:
-               WriteColoredLine(Localize("Option6"), ConsoleColor.Yellow);
+               WriteColoredLine(Localize("Option5"), ConsoleColor.Yellow);
                WriteColoredLine(Localize("LongDownloading"), ConsoleColor.DarkYellow);
 
                 var tasks = new List<Action>
     {
         () => RunInstaller(2),
         () => ExecuteCommand(1),
-        () => ExecuteCommand(2),
-        () => ExecuteCommand(3)
+        () => ExecuteCommand(2)
     };
 
                 foreach (var task in tasks)
@@ -303,7 +294,6 @@ internal class CNU_Student_Pack
         {
             1 => "winget install --id Microsoft.VisualStudioCode",
             2 => "winget install --id Git.Git -e --source winget",
-            3 => "winget install --id=MaximaTeam.Maxima  -e",
             _ => null
         };
 
@@ -318,7 +308,7 @@ internal class CNU_Student_Pack
 
                 ProcessStartInfo psi = new ProcessStartInfo
                 {
-                    FileName = "cmd.exe",
+                    FileName = "powershell.exe",
                     Arguments = $"/c {command}",
                     RedirectStandardOutput = true,
                     RedirectStandardError = true,
