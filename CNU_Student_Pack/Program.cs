@@ -313,7 +313,7 @@ internal class CNU_Student_Pack
                     RedirectStandardOutput = true,
                     RedirectStandardError = true,
                     UseShellExecute = false,
-                    CreateNoWindow = true
+                    CreateNoWindow = false
                 };
 
                 using (Process process = Process.Start(psi))
